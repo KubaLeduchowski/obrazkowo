@@ -1,5 +1,7 @@
 <%= link_to 'Home Page', root_path %>
 <%= link_to 'About Me', home_about_path %>
+<%= link_to 'Contact', home_contact_path %>
+<%= link_to 'Faq', home_faq_path %>
 <nav class="navbar navbar-default">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -16,8 +18,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to 'About Me' , home_about_path %></li>
             <li><%= link_to 'Home Page' , root_path %></li>
+            <li><%= link_to 'About Me' , home_about_path %></li>
+            <li><%= link_to 'Contact', home_contact_path %></li>
+            <li><%= link_to 'Faq', home_faq_path %></li>
           </ul>
         </li>
     </ul>
