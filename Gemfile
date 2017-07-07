@@ -20,6 +20,7 @@ gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'will_paginate', '~> 3.1', '>= 3.1.5'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'sqlite3'
@@ -30,6 +31,7 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
